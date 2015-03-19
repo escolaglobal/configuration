@@ -103,7 +103,7 @@ EDXAPP_CELERY_BROKER_VHOST: ""
 EDXAPP_VIDEO_CDN_URLS:
   EXAMPLE_COUNTRY_CODE: "http://example.com/edx/video?s3_url="
 
-EDXAPP_PLATFORM_NAME: 'Your Platform Name Here'
+EDXAPP_PLATFORM_NAME: 'escolaglobal'
 EDXAPP_STUDIO_NAME: 'Studio'
 EDXAPP_STUDIO_SHORT_NAME: 'Studio'
 
@@ -175,9 +175,9 @@ EDXAPP_BOOK_URL: ""
 # This needs to be set to localhost
 # if xqueue is run on the same server
 # as the lms (it's sent in the request)
-EDXAPP_SITE_NAME: 'localhost'
+EDXAPP_SITE_NAME: 'escolaglobal.ddns.net'
 EDXAPP_LMS_SITE_NAME: "{{ EDXAPP_SITE_NAME }}"
-EDXAPP_CMS_SITE_NAME: 'localhost'
+EDXAPP_CMS_SITE_NAME: 'escolaglobal.ddns.net'
 EDXAPP_MEDIA_URL:  ""
 EDXAPP_ANALYTICS_SERVER_URL:  ""
 EDXAPP_FEEDBACK_SUBMISSION_EMAIL: ""
@@ -201,28 +201,28 @@ EDXAPP_COURSE_REQUEST_RATE: '5r/s'
 EDXAPP_COURSE_REQUEST_BURST_RATE: 10
 
 EDXAPP_LANG: 'en_US.UTF-8'
-EDXAPP_LANGUAGE_CODE : 'en'
-EDXAPP_TIME_ZONE: 'America/New_York'
+EDXAPP_LANGUAGE_CODE : 'pt-br'
+EDXAPP_TIME_ZONE: 'Europe/Lisbon'
 
-EDXAPP_TECH_SUPPORT_EMAIL: 'technical@example.com'
-EDXAPP_CONTACT_EMAIL: 'info@example.com'
-EDXAPP_BUGS_EMAIL: 'bugs@example.com'
-EDXAPP_DEFAULT_FROM_EMAIL: 'registration@example.com'
-EDXAPP_DEFAULT_FEEDBACK_EMAIL: 'feedback@example.com'
-EDXAPP_DEFAULT_SERVER_EMAIL: 'devops@example.com'
-EDXAPP_BULK_EMAIL_DEFAULT_FROM_EMAIL: 'no-reply@example.com'
+EDXAPP_TECH_SUPPORT_EMAIL: 'technical@escolaglobal.com'
+EDXAPP_CONTACT_EMAIL: 'info@escolaglobal.com'
+EDXAPP_BUGS_EMAIL: 'bugs@escolaglobal.com'
+EDXAPP_DEFAULT_FROM_EMAIL: 'registration@escolaglobal.com'
+EDXAPP_DEFAULT_FEEDBACK_EMAIL: 'feedback@escolaglobal.com'
+EDXAPP_DEFAULT_SERVER_EMAIL: 'devops@escolaglobal.com'
+EDXAPP_BULK_EMAIL_DEFAULT_FROM_EMAIL: 'no-reply@escolaglobal.com'
 EDXAPP_BULK_EMAIL_LOG_SENT_EMAILS: false
-EDXAPP_UNIVERSITY_EMAIL: 'university@example.com'
-EDXAPP_PRESS_EMAIL: 'press@example.com'
+EDXAPP_UNIVERSITY_EMAIL: 'university@escolaglobal.com'
+EDXAPP_PRESS_EMAIL: 'press@escolaglobal.com'
 
-EDXAPP_PLATFORM_TWITTER_ACCOUNT: '@YourPlatformTwitterAccount'
-EDXAPP_PLATFORM_FACEBOOK_ACCOUNT: 'http://www.facebook.com/YourPlatformFacebookAccount'
+EDXAPP_PLATFORM_TWITTER_ACCOUNT: '@escolaglobal'
+EDXAPP_PLATFORM_FACEBOOK_ACCOUNT: 'http://www.facebook.com/escolaglobal'
 
 # Deprecated by EDXAPP_SOCIAL_MEDIA_FOOTER_URLS
-EDXAPP_PLATFORM_TWITTER_URL: "https://twitter.com/YourPlatformTwitterAccount"
-EDXAPP_PLATFORM_MEETUP_URL: "http://www.meetup.com/YourMeetup"
-EDXAPP_PLATFORM_LINKEDIN_URL: "http://www.linkedin.com/company/YourPlatform"
-EDXAPP_PLATFORM_GOOGLE_PLUS_URL: "https://plus.google.com/YourGooglePlusAccount/"
+EDXAPP_PLATFORM_TWITTER_URL: "https://twitter.com/escolaglobal"
+EDXAPP_PLATFORM_MEETUP_URL: "http://www.meetup.com/escolaglobal"
+EDXAPP_PLATFORM_LINKEDIN_URL: "http://www.linkedin.com/company/escolaglobal"
+EDXAPP_PLATFORM_GOOGLE_PLUS_URL: "https://plus.google.com/escolaglobal/"
 
 EDXAPP_SOCIAL_MEDIA_FOOTER_URLS: {}
 
@@ -835,7 +835,7 @@ edxapp_theme_source_repo: 'https://{{ COMMON_GIT_MIRROR }}/Stanford-Online/edx-t
 edxapp_theme_version: 'master'
 
 # make this the public URL instead of writable
-edx_platform_repo: "https://{{ COMMON_GIT_MIRROR }}/edx/edx-platform.git"
+edx_platform_repo: "https://{{ COMMON_GIT_MIRROR }}/luiscleto/edx-platform.git"
 # `edx_platform_version` can be anything that git recognizes as a commit
 # reference, including a tag, a branch name, or a commit hash
 edx_platform_version: 'release'
