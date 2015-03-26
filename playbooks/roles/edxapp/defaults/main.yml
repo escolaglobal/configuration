@@ -24,8 +24,8 @@ EDXAPP_DJFS:
   url_root : '/static/django-pyfs'
 
 EDXAPP_LMS_BASE: "escolaglobal.ddns.net"
-EDXAPP_PREVIEW_LMS_BASE: "preview.escolaglobal.ddns.net"
-EDXAPP_CMS_BASE: "studio.escolaglobal.ddns.net"
+EDXAPP_PREVIEW_LMS_BASE: "escolaglobal.ddns.net:18020"
+EDXAPP_CMS_BASE: "escolaglobal.ddns.net:18010"
 
 EDXAPP_LMS_GUNICORN_EXTRA: ""
 EDXAPP_LMS_GUNICORN_EXTRA_CONF: ""
@@ -177,7 +177,7 @@ EDXAPP_BOOK_URL: ""
 # as the lms (it's sent in the request)
 EDXAPP_SITE_NAME: 'escolaglobal.ddns.net'
 EDXAPP_LMS_SITE_NAME: "{{ EDXAPP_SITE_NAME }}"
-EDXAPP_CMS_SITE_NAME: 'studio.escolaglobal.ddns.net'
+EDXAPP_CMS_SITE_NAME: 'escolaglobal.ddns.net:18010'
 EDXAPP_MEDIA_URL:  ""
 EDXAPP_ANALYTICS_SERVER_URL:  ""
 EDXAPP_FEEDBACK_SUBMISSION_EMAIL: ""
