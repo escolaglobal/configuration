@@ -77,7 +77,7 @@ fi
 TEMPDIR=`mktemp -d`
 chmod 777 $TEMPDIR
 cd $TEMPDIR
-git clone https://github.com/luiscleto/configuration.git --depth=1 --single-branch --branch=$TARGET
+git clone https://github.com/escolaglobal/configuration.git --depth=1 --single-branch --branch=$TARGET
 echo "edx_platform_version: $TARGET" >> vars.yml
 echo "ora2_version: $TARGET" >> vars.yml
 echo "certs_version: $TARGET" >> vars.yml

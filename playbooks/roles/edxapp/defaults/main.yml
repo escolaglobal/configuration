@@ -23,9 +23,9 @@ EDXAPP_DJFS:
   directory_root: '{{ edxapp_data_dir }}/django-pyfs/static/django-pyfs'
   url_root : '/static/django-pyfs'
 
-EDXAPP_LMS_BASE: "escolaglobal.ddns.net"
-EDXAPP_PREVIEW_LMS_BASE: "escolaglobal.ddns.net:18020"
-EDXAPP_CMS_BASE: "escolaglobal.ddns.net:18010"
+EDXAPP_LMS_BASE: "coding.escolaglobal.org"
+EDXAPP_PREVIEW_LMS_BASE: "coding.escolaglobal.org:18020"
+EDXAPP_CMS_BASE: "coding.escolaglobal.org:18010"
 
 EDXAPP_LMS_GUNICORN_EXTRA: ""
 EDXAPP_LMS_GUNICORN_EXTRA_CONF: ""
@@ -175,9 +175,9 @@ EDXAPP_BOOK_URL: ""
 # This needs to be set to localhost
 # if xqueue is run on the same server
 # as the lms (it's sent in the request)
-EDXAPP_SITE_NAME: 'escolaglobal.ddns.net'
+EDXAPP_SITE_NAME: 'coding.escolaglobal.org'
 EDXAPP_LMS_SITE_NAME: "{{ EDXAPP_SITE_NAME }}"
-EDXAPP_CMS_SITE_NAME: 'escolaglobal.ddns.net:18010'
+EDXAPP_CMS_SITE_NAME: 'coding.escolaglobal.org:18010'
 EDXAPP_MEDIA_URL:  ""
 EDXAPP_ANALYTICS_SERVER_URL:  ""
 EDXAPP_FEEDBACK_SUBMISSION_EMAIL: ""
@@ -835,7 +835,7 @@ edxapp_theme_source_repo: 'https://{{ COMMON_GIT_MIRROR }}/Stanford-Online/edx-t
 edxapp_theme_version: 'master'
 
 # make this the public URL instead of writable
-edx_platform_repo: "https://{{ COMMON_GIT_MIRROR }}/luiscleto/edx-platform.git"
+edx_platform_repo: "https://{{ COMMON_GIT_MIRROR }}/escolaglobal/edx-platform.git"
 # `edx_platform_version` can be anything that git recognizes as a commit
 # reference, including a tag, a branch name, or a commit hash
 edx_platform_version: 'release'

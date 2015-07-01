@@ -45,7 +45,7 @@ fi
 ## Clone the configuration repository and run Ansible
 ##
 cd /var/tmp
-git clone -b master https://github.com/luiscleto/configuration
+git clone -b master https://github.com/escolaglobal/configuration
 
 ##
 ## Install the ansible requirements
